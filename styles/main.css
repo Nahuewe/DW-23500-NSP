@@ -1,0 +1,52 @@
+/* Todo esto es parte de "Index" */
+.navbar {
+    background-color: #b7def0 ;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: block;
+}
+.productos {
+    display: inline;
+    background: rgb(0, 238, 255);
+    width: auto;
+    height: auto;
+    margin: 30px;
+    border: royalblue;
+}
+.titulos {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: slateblue;
+    width: auto;
+    height: auto;
+    border: 40px;
+    color: #ffffff;
+}
+/* Termina la parte de "Index" */
+
+/* todo esto es parte de "Venta" */
+.venta {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(52, 172, 228);
+    height: 50px;
+    width: 370px;
+    text-align: center;
+    margin: 0px auto 100px auto;
+    padding: 1rem;
+    border: 2px;
+}
+.venta__boton {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: auto;
+}
+/* termina la parte de "Venta" */
+
+/* todo esto es parte de "Redes" */
+.fuenteDeLetra {
+    font-family: 'New Rocker', cursive;
+    text-align: justify;
+}
