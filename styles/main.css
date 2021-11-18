@@ -2,18 +2,42 @@
 .navbar {
     background-color: #b7def0 ;
     margin: 0px 0px 10px 0px;
-    text-align: center;
+    text-align: left;
     height: auto;
     width: auto;
     display: block;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'New Rocker', cursive;
+    font-size: 15px;
+}
+.navbar--cuenta{
+    display: grid;
+    justify-content: right;
+}
+.fondo__header {
+    background-color: black;
+    font-style: oblique;
+    text-align: justify;
+    text-align: center;
 }
 .productos {
     display: inline;
+    align-items: stretch;
+    position: relative;
     background: rgb(0, 238, 255);
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 100px;
     margin: 30px;
     border: royalblue;
+    left: 500px;
+}
+.fondo__productos {
+    background: #000;
+    bottom: 200px;
+    margin-bottom: -17;
+    margin-top: 0px;
+    height: 290px;
+    width: auto;
 }
 .titulos {
     font-family: 'Roboto', sans-serif;
@@ -21,8 +45,12 @@
     background: slateblue;
     width: auto;
     height: auto;
-    border: 40px;
+    border: solid;
     color: #ffffff;
+    font-size: 20px;
+}
+.fondo__footer {
+
 }
 /* Termina la parte de "Index" */
 
@@ -46,7 +74,8 @@
 /* termina la parte de "Venta" */
 
 /* todo esto es parte de "Redes" */
-.fuenteDeLetra {
+.fuente__de__letra {
     font-family: 'New Rocker', cursive;
+    font-size: 20px;
     text-align: justify;
 }
