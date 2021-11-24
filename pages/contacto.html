@@ -9,40 +9,42 @@
 </head>
 
 <body>
+    <header class="fondo__header">
 
-    <header>
         <nav class="navbar">
-            <a href="../index.html">Inicio</a>
-            <a href="./novedades.html">Novedades</a>
-            <a href="./destacado.html">Destacado</a>
-            <a href="./redes.html">Redes</a>
-            <a class="navbar--cuenta" href="../pages/crearCuenta.html">Crear Cuenta</a> <a class="navbar--cuenta" href="../pages/iniciarSesion.html">Iniciar Sesión</a>
-            
-            <hr>
+            <ul class="navbar--links">
+                <li><a  href="../index.html">Inicio</a></li>
+                <li><a  href="./novedades.html">Novedades</a></li>
+                <li><a  href="./destacado.html">Destacados</a></li>
+                <li><a  href="./redes.html">Redes</a></li>
+                <div>
+                    <li><a  href="./crearCuenta.html">Crear Cuenta </a> | <a href="./iniciarSesion.html"> Iniciar Sesión</a></li>
+                </div>
+            </ul>
         </nav>
     </header>
 
         <main>
             <div> 
 
-                <form action="">
-                    <h1>
+                <form action="" class="contact__body">
+                    <h1 id="contacto">
                         Contáctame
                     </h1>
 
-                    <label for="name">Nombre (*)</label>
-                    <input type="text" required name="name" placeholder="Nahuel Soria">
+                    <label for="name">Nombre </label>
+                    <input class="input" type="text" name="name" placeholder="Nahuel Soria" required>
                     <br>
                     <br>
-                    <label for="email">Correo (*)</label>
-                    <input type="email" required name="email" placeholder="nahuelsoriap@gmail.com">
+                    <label for="email">Correo </label>
+                    <input class="input" type="email" name="email" placeholder="nahuelsoriap@gmail.com" required>
                     <br>
                     <br>
-                    <label for="mensaje">Mensaje (Opcional)</label>
-                    <input type="text" name="mensaje"> 
+                    <label for="mensaje">Mensaje</label>
+                    <input class="input text__area" type="text" name="mensaje" placeholder="Tu mensaje">
                     <br>
                     <br>
-                    <input type="submit" name="boton" value="Enviar">
+                    <input class="boton" type="submit" name="boton" value="Enviar">
                     <br>
                     <br>
 
