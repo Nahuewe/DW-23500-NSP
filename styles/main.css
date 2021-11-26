@@ -1,7 +1,11 @@
 /* Todo esto es parte de "Index" */
 .body{
-    background-color: black;
+    background-color: #ffcbc1;
+    margin: 0px;
+    padding: 0px;
 }
+
+/* Parte superior */
 .navbar {
     display: flex;
     justify-content: center;
@@ -41,27 +45,40 @@
     display: flex;
     justify-content: center;
 }
-.productos {
-    display: inline;
+/* Fin de la parte superior */
+
+/* Productos */
+.productos--arriba p{
+    display: inline-block;
     align-items: stretch;
     position: relative;
-    width: 100px;
+    width: 170px;
     height: 100px;
     margin: 30px;
     left: 500px;
     bottom: 20px;
 }
-.productos--medio {
-    display: inline;
+.productos--medio p{
+    display: inline-block;
     align-items: stretch;
     position: relative;
-    width: 100px;
+    width: 170px;
     height: 100px;
     margin: 30px;
     left: 500px;
-    top: 5px;
+    bottom: 20px;
 }
-.fondo__productos {
+.productos--abajo p{
+    display: inline-block;
+    align-items: stretch;
+    position: relative;
+    width: 170px;
+    height: 100px;
+    margin: 30px;
+    left: 500px;
+    bottom: 20px;
+}
+.fondo__productos--arriba {
     background: #add5fa;
     bottom: 200px;
     margin-bottom: -17;
@@ -71,8 +88,12 @@
 }
 .fondo__productos--medio {
     background: #957dad;
-
 }
+.fondo__productos--abajo {
+    background-color: #fd99a9;
+}
+/* Terminan los Productos */
+
 .titulos {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -82,10 +103,13 @@
     font-size: 25px;
     margin-top: 15px;
     text-decoration: none;
+    margin: 0px;
 }
 .fondo__footer {
     background-color: #ffffff;
     border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 /* Termina la parte de "Index" */
 
