@@ -20,7 +20,7 @@
 }
 .navbar--links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: auto;
     width: 100%;
@@ -109,9 +109,10 @@
     text-decoration: none;
     margin: 0px;
 }
-.fondo__footer {
-    background-color: #ffffff;
-    border-radius: 20px;
+
+/* Footer */
+.footer ul{
+    background-color: #fdfd;
     margin: 0px;
     padding: 0px;
 }
@@ -146,10 +147,13 @@
     font-size: 20px;
     text-align: justify;
 }
+
 /* Todo esto es parte de "Contacto" */
 .contact__body {
     background-color: #efefef;
     font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 .contact {
     margin: 0;
