@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nahuel Soria Parodi">
     <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 
 <body class="contact">
 
     <main>
-        <form action="" class="contact__body">
+        <form action="" class="contact__body--cuenta">
             <label for="name">Nombre</label>
             <br>
             <input class="input" type="text" name="name" placeholder="ej: Nahuel Soria" required>
@@ -36,10 +37,9 @@
             <br>
             <input class="input" type="password" name="confirm_password" required>
             <br>
-            <br>
             <label for="boton"></label>
-            <input type="submit" name="boton" value="Crear Cuenta">
-            <a href="../index.html"><input type="button" name="boton" value="Inicio"></a>
+            <input class="boton__creaCuenta" type="submit" name="boton" value="Crear Cuenta">
+            <a href="../index.html"><input class="boton__creaCuenta" type="button" name="boton" value="Inicio"></a>
         </form>
     </main>
 </body>
