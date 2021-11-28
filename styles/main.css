@@ -13,10 +13,10 @@
 .navbar {
     display: flex;
     justify-content: center;
-    font-family: 'Gideon Roman', cursive;
     font-family: 'New Rocker', cursive;
     height: auto;
-    width: 100%;
+    width: 50%;
+    font-size: 110%;
 }
 .navbar--links{
     display: flex;
@@ -26,18 +26,21 @@
     width: 100%;
 }
 .navbar--links :hover{
-    background-color:  #fd99a9;
+    color: #000000;
+}
+.navbar--links :active{
+    color: #d9ff00;
 }
 .navbar--links li{
     display: inline-block;
     padding: 0 4em 0 0;
-    color: purple;
+    color: #800080;
     font-size: 1em;
     text-align: center;
     text-decoration: none;
 }
 .navbar--links li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 .navbar--cuenta{
@@ -45,7 +48,7 @@
     justify-content: right;
 }
 .fondo__header {
-    background-color: salmon;
+    background-color: #fa8072;
     display: flex;
     justify-content: center;
 }
@@ -113,7 +116,7 @@
     display: flex;
     justify-content: center;
     color: #ffffff;
-    background-color: blueviolet;
+    background-color: #8a2be2;
     font-size: 25px;
     margin-top: 15px;
     text-decoration: none;
@@ -132,23 +135,24 @@
 /* Footer */
 .footer{
     background-color: #fdfd;
-    margin: 0px;
-    padding: 1%;
-    height: 10%;
+    margin: 0;
+    padding: 0;
+    height: 13%;
     width: 100%;
+    text-decoration: none;
 }
 /* Termina la parte de "Index" */
 
 /* todo esto es parte de "Venta" */
 .venta {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(0, 247, 255);
+    background-color: #00f7ff;
     height: 20%;
     width: 20%;
     text-align: center;
     margin: 3% auto 3% auto;
     padding: 1%;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 .venta__boton {
     width: auto;
@@ -158,7 +162,7 @@
     font-family: 'Gideon Roman', cursive;
     font-family: 'Montserrat', sans-serif;
     border-radius: 40px;
-    color: green;
+    color: #008000;
 }
 /* termina la parte de "Venta" */
 
@@ -170,6 +174,17 @@
 }
 
 /* Todo esto es va con los "formularios" */
+.contact {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 #999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
 .contact__body {
     background-color: #efefef;
     font-family: sans-serif;
@@ -177,34 +192,47 @@
     padding: 25px;
 }
 .contact__body--cuenta {
-    background-color: #f2e8cf;
+    background-color: #858ae3;
     font-family: sans-serif;
     margin: 0px;
     padding: 40px;
+    color: black;
+}
+.boton__creaCuenta {
+    border-radius: 20px;
+    color: #000000;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #c0fdff;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 .contact__body--sesion {
-    background-color: #95ec7a;
+    background-color: #7f29ca;
     font-family: sans-serif;
     margin: 0px;
     padding: 40px;
+    color: #ffffff;
 }
-.contact {
-    margin: 0;
-    padding: 0;
-    width: 500px;
-    background-color: #ffffff;
-    box-shadow: 0 0 20px 0 #999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+.boton__iniciarSesion {
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #000000;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 .input {
     width: 400px;
     height: 40px;
     margin-top: 20px;
     padding-left: 10px;
-    border: 1px solid #777;
+    border: 1px solid #777777;
     border-radius: 14px;
     outline: none;
 }
@@ -214,35 +242,14 @@
 }
 .boton {
     border-radius: 20px;
-    color: #fff;
+    color: #ffffff;
     margin-top: 18px;
     padding: 10px;
     background-color: #d291bc;
     font-size: 12px;
     border: none;
     cursor: pointer;
-}
-.boton__creaCuenta {
-    border-radius: 20px;
-    color: #fff;
-    margin-top: 18px;
-    padding: 10px;
-    background-color: #f35b04;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-.boton__iniciarSesion {
-    border-radius: 20px;
-    color: #fff;
-    margin-top: 18px;
-    padding: 10px;
-    background-color: #0a07b8;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+    width: 22%;
 }
 #contacto {
     cursor: pointer;
