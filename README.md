@@ -1,1 +1,1 @@
-CSS no es lo mio.
+Abandone este proyecto, pero de igual manera lo voy a conservar por el pequeño cariño que le tuve.
